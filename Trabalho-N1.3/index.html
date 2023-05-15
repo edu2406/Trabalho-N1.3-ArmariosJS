@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho N1.3|ArmáriosJS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="titulo">Armários da Escola</h1>
+        <p id="leg">Legenda: <span class="verde">Desocupado</span> | <span class="vermelho">Ocupado</span> | <span class="amarelo">Manuntenção</span></p>
+        <hr id="linha">
+    </header>
+    <h2 class="bloc">Bloco 1</h2>
+    <div class="blocos">
+        <div class="armario">
+            <div class="numero">01</div>
+            <div class="bola cor3" onclick="selecionar(this)"></div>
+            <hr>
+            <hr>
+            <hr>
+        </div>
+        <div class="armario">
+            <div class="numero">02</div>
+            <div class="bola cor2" onclick="selecionar(this)"></div>
+            <hr>
+            <hr>
+            <hr>
+        </div>
+        <div class="armario">
+            <div class="numero">03</div>
+            <div class="bola cor1" onclick="selecionar(this)"></div>
+            <hr>
+            <hr>
+            <hr>
+        </div>
+        <div class="armario">
+            <div class="numero">04</div>
+            <div class="bola cor3" onclick="selecionar(this)"></div>
+            <hr>
+            <hr>
+            <hr>
+        </div>
+        <div class="armario">
+            <div class="numero">05</div>
+            <div class="bola cor3" onclick="selecionar(this)"></div>
+            <hr>
+            <hr>
+            <hr>
+        </div>
+        <div class="armario">
+            <div class="numero">06</div>
+            <div class="bola cor1" onclick="selecionar(this)"></div>
+            <hr>
+            <hr>
+            <hr>
+        </div>
+    </div>
+
+    <h2 class="bloc">Bloco 2</h2>
+
+    <div class="blocos">
+        <div class="armario">
+            <div class="numero">07</div>
+            <div class="bola cor3" onclick="selecionar(this)"></div>
+            <hr>
+            <hr>
+            <hr>
+        </div>
+        <div class="armario">
+            <div class="numero">08</div>
+            <div class="bola cor1" onclick="selecionar(this)"></div>
+            <hr>
+            <hr>
+            <hr>
+        </div>
+        <div class="armario">
+            <div class="numero">09</div>
+            <div class="bola cor1" onclick="selecionar(this)"></div>
+            <hr>
+            <hr>
+            <hr>
+        </div>
+        <div class="armario">
+            <div class="numero">10</div>
+            <div class="bola cor1" onclick="selecionar(this)"></div>
+            <hr>
+            <hr>
+            <hr>
+        </div>
+        <div class="armario">
+            <div class="numero">11</div>
+            <div class="bola cor3" onclick="selecionar(this)"></div>
+            <hr>
+            <hr>
+            <hr>
+        </div>
+        <div class="armario">
+            <div class="numero">12</div>
+            <div class="bola cor2" onclick="selecionar(this)"></div>
+            <hr>
+            <hr>
+            <hr>
+        </div>
+    </div>
+    <div id="popup">
+        <div id="fechar" onclick="fechar()"></div>
+        <div class="teste" onclick="escolher(this)"></div>
+        <p onclick="escolher(this)" class="opcao vermelho">Ocupar</p>
+        <p onclick="escolher(this)" class="opcao verde">Desocupar</p>
+        <p onclick="escolher(this)" class="opcao amarelo">Manuntenção</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
